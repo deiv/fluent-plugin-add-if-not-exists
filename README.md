@@ -1,8 +1,7 @@
 # fluent-plugin-add-if-not-exists
 
-[Fluentd](https://fluentd.org/) filter plugin to do something.
+[Fluentd](https://fluentd.org/) filter plugin to add field if not exists (or if blank)
 
-TODO: write description for you plugin.
 
 ## Installation
 

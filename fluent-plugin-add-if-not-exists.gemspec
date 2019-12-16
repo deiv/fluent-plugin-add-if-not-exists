@@ -4,12 +4,11 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 Gem::Specification.new do |spec|
   spec.name    = "fluent-plugin-add-if-not-exists"
   spec.version = "0.1.0"
-  spec.authors = ["TODO: Write your name"]
-  spec.email   = ["TODO: Write your email"]
+  spec.authors = ["David Suárez"]
+  spec.email   = ["david.sephirot@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{fluentd filter plugin to add field if not exists (or if blank)}
+  spec.homepage      = "https://github.com/deiv/fluent-plugin-add-if-not-exists"
   spec.license       = "Apache-2.0"
 
   test_files, files  = `git ls-files -z`.split("\x0").partition do |f|
